@@ -3,7 +3,7 @@ import React from 'react'
 const listingDisplay = () => {
     return (
         <div>
-            List.
+            List. Display.
         </div>
     )
 }
