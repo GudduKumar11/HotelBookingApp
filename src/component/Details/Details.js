@@ -52,7 +52,8 @@ class Details extends Component {
                             <h4>Phone: 9709884128</h4>
                         </TabPanel>
                     </Tabs>
-
+                    <Link to="/" className="btn btn-danger">Back</Link> &nbsp;
+                    <Link to={`/booking/${details.name}`} className="btn btn-success"> Process </Link>
                 </div>
             </div>
 
@@ -73,6 +74,7 @@ class Details extends Component {
         this.setState({
             details: response.data[0]
         })
+        sessionStorage.setItem('cost', response.data[0].cost)
     }
 
 }

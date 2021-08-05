@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ListingDisplay from './ListingDisplay';
-
+import RoomFilter from '../filters/roomFilter'
 
 const url = " https://developerfunnel.herokuapp.com/hotels"
 
@@ -19,7 +19,7 @@ class ListingApi extends Component {
         return (
             <div className="row">
                 <div className="col-md-2">
-
+                    <RoomFilter />
                 </div>
                 <div className="col-md-10">
                     <ListingDisplay listdata={this.state.hotellist} />

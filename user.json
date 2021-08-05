@@ -1,0 +1,32 @@
+{
+  "booking": [
+    {
+      "id": 675,
+      "hotel_name": "The Ashtan Sarovar Portico",
+      "name": "Guddu ",
+      "phone": "989933",
+      "cost": "8399"
+    },
+    {
+      "id": 622,
+      "hotel_name": "The Ashtan Sarovar Portico",
+      "name": "sefe",
+      "phone": "12142",
+      "cost": "8399"
+    },
+    {
+      "id": 533,
+      "hotel_name": "JW Marriott Chandigarh",
+      "name": "Gautam",
+      "phone": "89764754878",
+      "cost": "6599"
+    },
+    {
+      "id": 258,
+      "hotel_name": "Trident Nariman Point",
+      "name": "Anand",
+      "phone": "6577",
+      "cost": "4000"
+    }
+  ]
+}
